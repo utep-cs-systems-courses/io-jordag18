@@ -1,8 +1,8 @@
 all:
 	(cd timerLib && make install)
-	(cd LedStateTest && make)
+	(cd toy && make)
 
 clean:
 	(cd timerLib && make clean)
-	(cd LedStateTest && make clean)
+	(cd toy && make clean)
 	rm -rf h lib
